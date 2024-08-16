@@ -41,7 +41,7 @@ const { type = 'basic', listColor = 'primary', listItems, classes } = Astro.prop
 
 <style>
 	.list li {
-		@apply mb-2 ml-4 list-disc text-neutral-700 dark:text-neutral-50;
+		@apply mb-2 ms-4 list-disc text-neutral-700 dark:text-neutral-50;
 	}
 	.list--checklist {
 		@apply [&_li]:flex [&_li]:items-start [&_li]:gap-2 [&_svg]:h-6 [&_svg]:w-6 [&_svg]:shrink-0 [&_svg]:p-1 [&_svg]:text-primary-500;

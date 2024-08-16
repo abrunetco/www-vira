@@ -35,14 +35,14 @@ type Props = {
 }
 const {
 	id,
-	title ,
-	image ,
+	title,
+	image,
 	imageWidth,
 	imageHeight,
 	mobileImage,
 	imagePosition = 'right',
-	text ,
-	classes ,
+	text,
+	classes,
 	offsetImage = false
 } = Astro.props
 ---
@@ -68,7 +68,7 @@ const {
 
 <style>
 	.text-image__picture {
-		@apply flex justify-center lg:[&.text-image\_\_picture--offset-right_img]:left-0 lg:[&.text-image\_\_picture--offset-right_img]:right-auto lg:[&.text-image\_\_picture--offset]:h-full lg:[&.text-image\_\_picture--offset_img]:absolute lg:[&.text-image\_\_picture--offset_img]:right-0 lg:[&.text-image\_\_picture--offset_img]:top-1/2 lg:[&.text-image\_\_picture--offset_img]:max-w-none lg:[&.text-image\_\_picture--offset_img]:-translate-y-1/2;
+		@apply flex justify-center lg:[&.text-image\_\_picture--offset-right_img]:end-auto lg:[&.text-image\_\_picture--offset-right_img]:start-0 lg:[&.text-image\_\_picture--offset]:h-full lg:[&.text-image\_\_picture--offset_img]:absolute lg:[&.text-image\_\_picture--offset_img]:end-0 lg:[&.text-image\_\_picture--offset_img]:top-1/2 lg:[&.text-image\_\_picture--offset_img]:max-w-none lg:[&.text-image\_\_picture--offset_img]:-translate-y-1/2;
 	}
 	.text-image__content {
 		@apply max-w-xl;
