@@ -32,17 +32,17 @@ export default {
       colors: {
         transparent: "transparent",
         primary: {
-          50: "#fdf2f8",
-          100: "#fce7f3",
-          200: "#fbcfe8",
-          300: "#f9a8d4",
-          400: "#f472b6",
-          500: "#E2187D",
-          600: "#db2777",
-          700: "#be185d",
-          800: "#9d174d",
-          900: "#831843",
-          950: "#500724",
+          '50': '#fdf2ff',
+          '100': '#f9e3ff',
+          '200': '#f2c6ff',
+          '300': '#ed99ff',
+          '400': '#e45dff',
+          '500': '#d121ff',
+          '600': '#bb00ff',
+          '700': '#9d00cf',
+          '800': '#8100a9',
+          '900': '#6d0689',
+          '950': '#49005e',
         },
         neutral: {
           50: "#f8fafc",
@@ -62,8 +62,8 @@ export default {
         fancy: "url(https://www.svgrepo.com/show/269/color-picker.svg)",
       },
       fontFamily: {
-        sans: ["Inter Variable", ...defaultTheme.fontFamily.sans],
-        headings: ["Outfit Variable", ...defaultTheme.fontFamily.sans],
+        sans: ["Vazirmatn Variable", ...defaultTheme.fontFamily.sans],
+        headings: ["Vazirmatn Variable", ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         dropdown: {
@@ -92,5 +92,6 @@ export default {
     require("tailwindcss/plugin")(function ({ addVariant }) {
       addVariant("dark-me", ".dark_&");
     }),
+    require('tailwindcss-rtl'),
   ],
 };

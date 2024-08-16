@@ -119,7 +119,7 @@ const savedNavActions = navActions.map((action) => ({
 
 <style>
 	.header {
-		@apply sticky top-0 z-20 w-full animate-fadeInShadowLight [animation-range:0%_20rem] [animation-timeline:scroll()] before:absolute after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full lg:after:hidden dark:animate-fadeInShadowDark dark:[animation-range:0%_20rem] dark:[animation-timeline:scroll()];
+		@apply sticky top-0 z-20 w-full animate-fadeInShadowLight [animation-range:0%_20rem] [animation-timeline:scroll()] before:absolute after:absolute after:start-0 after:top-full after:z-10 after:block after:h-px after:w-full lg:after:hidden dark:animate-fadeInShadowDark dark:[animation-range:0%_20rem] dark:[animation-timeline:scroll()];
 	}
 	.header:before {
 		@apply block h-full w-full bg-white/90 lg:backdrop-blur-sm dark:bg-neutral-900/90;
@@ -134,7 +134,7 @@ const savedNavActions = navActions.map((action) => ({
 		@apply flex h-[5.5rem] items-stretch gap-6 font-medium text-neutral-700 lg:justify-between dark:text-neutral-50;
 	}
 	.header__menu {
-		@apply invisible absolute left-0 top-0 z-[-1] ml-auto h-dvh w-full justify-center overflow-hidden overflow-y-auto overscroll-contain bg-white/90 px-8 py-[6rem] font-medium opacity-0 transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0 lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0 lg:pt-0 lg:opacity-100 dark:bg-neutral-900/90 dark:lg:bg-transparent;
+		@apply invisible absolute start-0 top-0 z-[-1] ms-auto h-dvh w-full justify-center overflow-hidden overflow-y-auto overscroll-contain bg-white/90 px-8 py-[6rem] font-medium opacity-0 transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0 lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0 lg:pt-0 lg:opacity-100 dark:bg-neutral-900/90 dark:lg:bg-transparent;
 	}
 	.header__menu--open {
 		@apply visible opacity-100 backdrop-blur-sm;
@@ -149,7 +149,7 @@ const savedNavActions = navActions.map((action) => ({
 		@apply h-4 w-4 transition-transform [.header\_\_menu-item.open_&]:rotate-180;
 	}
 	.header__submenu {
-		@apply left-0 top-full hidden animate-dropdown rounded bg-neutral-300/10 px-4 lg:absolute lg:min-w-48 lg:rounded-t-none lg:bg-white/90 lg:p-0 lg:shadow-lg lg:shadow-neutral-700/5 lg:backdrop-blur-sm dark:bg-neutral-500/10 lg:dark:bg-neutral-900/90 lg:dark:shadow-neutral-950/50 [.header\_\_menu-item.open_&]:block;
+		@apply start-0 top-full hidden animate-dropdown rounded bg-neutral-300/10 px-4 lg:absolute lg:min-w-48 lg:rounded-t-none lg:bg-white/90 lg:p-0 lg:shadow-lg lg:shadow-neutral-700/5 lg:backdrop-blur-sm dark:bg-neutral-500/10 lg:dark:bg-neutral-900/90 lg:dark:shadow-neutral-950/50 [.header\_\_menu-item.open_&]:block;
 	}
 	.header__submenu-item {
 		@apply hidden [.header\_\_menu-item.open_&]:block;
@@ -161,7 +161,7 @@ const savedNavActions = navActions.map((action) => ({
 		@apply relative order-10 block h-10 w-10 self-center lg:hidden [&--open]:visible [&--open]:opacity-100;
 	}
 	.header__toggle-inner {
-		@apply absolute left-1/2 top-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform;
+		@apply absolute start-1/2 top-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform;
 	}
 	.header__toggle-inner span {
 		@apply absolute block h-0.5 transform rounded-full bg-neutral-900 transition-all duration-300 dark:bg-white;
@@ -176,6 +176,6 @@ const savedNavActions = navActions.map((action) => ({
 		@apply w-1/2 origin-top-left translate-y-2 [.header\_\_toggle--open_&]:w-0;
 	}
 	.header__actions {
-		@apply fixed bottom-0 left-0 hidden w-full items-center justify-between gap-4 border-t border-neutral-100 bg-white px-6 py-4 lg:relative lg:ml-auto lg:flex lg:w-auto lg:border-none lg:bg-transparent lg:px-0 lg:py-0 dark:border-neutral-800 dark:bg-neutral-950 lg:dark:bg-transparent [.header\_\_menu--open~&]:flex;
+		@apply fixed bottom-0 start-0 hidden w-full items-center justify-between gap-4 border-t border-neutral-100 bg-white px-6 py-4 lg:relative lg:ms-auto lg:flex lg:w-auto lg:border-none lg:bg-transparent lg:px-0 lg:py-0 dark:border-neutral-800 dark:bg-neutral-950 lg:dark:bg-transparent [.header\_\_menu--open~&]:flex;
 	}
 </style>

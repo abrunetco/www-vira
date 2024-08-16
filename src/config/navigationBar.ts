@@ -34,24 +34,25 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
-		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		alt: 'سیستم مدیریت مدارس',
+		text: 'ویرا.'
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-		{ name: 'Pricing', link: '/pricing' },
-		{ name: 'Features', link: '/features' },
+		{ name: 'خانه', link: '/' },
+		{ name: 'قیمت گذاری', link: '/pricing' },
+		{ name: 'امکانات', link: '/features' },
 		{
-			name: 'Resources',
+			name: 'منابع',
 			link: '#',
 			submenu: [
-				{ name: 'Blog', link: '/blog' },
-				{ name: 'Changelog', link: '/changelog' },
-				{ name: 'FAQ', link: '/faq' },
-				{ name: 'Terms', link: '/terms' }
+				{ name: 'بلاگ', link: '/blog' },
+				{ name: 'مسیر و اهداف', link: '/roadmap' },
+				{ name: 'بروزرسانی ها', link: '/changelog' },
+				{ name: 'سوالات شما', link: '/faq' },
+				{ name: 'قوانین و مقررات', link: '/terms' }
 			]
 		},
-		{ name: 'Contact', link: '/contact' }
+		{ name: 'تماس با ما', link: '/contact' }
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'درخواست دمو', link: '/', style: 'primary', size: 'lg' }]
 }
