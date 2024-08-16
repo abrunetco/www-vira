@@ -1,5 +1,8 @@
 // Navigation Bar
 // ------------
+
+import { baseUrl } from "./config"
+
 // Description: The navigation bar data for the website.
 export interface Logo {
 	src: string
@@ -33,26 +36,26 @@ export interface NavData {
 
 export const navigationBarData: NavData = {
 	logo: {
-		src: '/logo.svg',
+		src: baseUrl + '/logo.svg',
 		alt: 'سیستم مدیریت مدارس',
 		text: 'ویرا.'
 	},
 	navItems: [
-		{ name: 'خانه', link: '/' },
-		{ name: 'قیمت گذاری', link: '/pricing' },
-		{ name: 'امکانات', link: '/features' },
+		{ name: 'خانه', link: baseUrl + '/' },
+		{ name: 'قیمت گذاری', link: baseUrl + '/pricing' },
+		{ name: 'امکانات', link: baseUrl + '/features' },
 		{
 			name: 'منابع',
-			link: '#',
+			link: baseUrl + '#',
 			submenu: [
-				{ name: 'بلاگ', link: '/blog' },
-				{ name: 'مسیر و اهداف', link: '/roadmap' },
-				{ name: 'بروزرسانی ها', link: '/changelog' },
-				{ name: 'سوالات شما', link: '/faq' },
-				{ name: 'قوانین و مقررات', link: '/terms' }
+				{ name: 'بلاگ', link: baseUrl + '/blog' },
+				{ name: 'مسیر و اهداف', link: baseUrl + '/roadmap' },
+				{ name: 'بروزرسانی ها', link: baseUrl + '/changelog' },
+				{ name: 'سوالات شما', link: baseUrl + '/faq' },
+				{ name: 'قوانین و مقررات', link: baseUrl + '/terms' }
 			]
 		},
-		{ name: 'تماس با ما', link: '/contact' }
+		{ name: 'تماس با ما', link: baseUrl + '/contact' }
 	],
-	navActions: [{ name: 'درخواست دمو', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'درخواست دمو', link: baseUrl + '/', style: 'primary', size: 'lg' }]
 }

@@ -2,6 +2,8 @@
 // ------------
 // Description: The configuration file for the website.
 
+export const baseUrl = '/www-vira'
+
 export interface Logo {
 	src: string
 	alt: string
@@ -24,9 +26,9 @@ export const configData: Config = {
 	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
 	siteDescription:
 		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
-	ogImage: '/og.jpg',
+	ogImage: baseUrl + '/og.jpg',
 	logo: {
-		src: '/logo.svg',
+		src: baseUrl + '/logo.svg',
 		alt: 'Foxi. logo'
 	},
 	canonical: true,

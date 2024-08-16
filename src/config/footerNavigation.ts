@@ -1,5 +1,8 @@
 // Footer Navigation
 // ------------
+
+import { baseUrl } from "./config"
+
 // Description: The footer navigation data for the website.
 export interface Logo {
 	src: string
@@ -39,7 +42,7 @@ export const footerNavigationData: FooterData = {
 		aboutText:
 			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
 		logo: {
-			src: '/logo.svg',
+			src: baseUrl + '/logo.svg',
 			alt: 'The tailwind astro theme',
 			text: 'Foxi.'
 		}
@@ -50,23 +53,23 @@ export const footerNavigationData: FooterData = {
 			subCategories: [
 				{
 					subCategory: 'Features',
-					subCategoryLink: '/features'
+					subCategoryLink: baseUrl + '/features'
 				},
 				{
 					subCategory: 'FAQ',
-					subCategoryLink: '/faq'
+					subCategoryLink: baseUrl + '/faq'
 				},
 				{
 					subCategory: 'Pricing',
-					subCategoryLink: '/pricing'
+					subCategoryLink: baseUrl + '/pricing'
 				},
 				{
 					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
+					subCategoryLink: baseUrl + '/changelog'
 				},
 				{
 					subCategory: 'Terms',
-					subCategoryLink: '/terms'
+					subCategoryLink: baseUrl + '/terms'
 				}
 			]
 		},
@@ -75,15 +78,15 @@ export const footerNavigationData: FooterData = {
 			subCategories: [
 				{
 					subCategory: 'About us',
-					subCategoryLink: '/'
+					subCategoryLink: baseUrl + '/'
 				},
 				{
 					subCategory: 'News',
-					subCategoryLink: '/blog'
+					subCategoryLink: baseUrl + '/blog'
 				},
 				{
 					subCategory: 'Careers',
-					subCategoryLink: '/blog'
+					subCategoryLink: baseUrl + '/blog'
 				}
 			]
 		},
@@ -92,15 +95,15 @@ export const footerNavigationData: FooterData = {
 			subCategories: [
 				{
 					subCategory: 'Contact',
-					subCategoryLink: '/contact'
+					subCategoryLink: baseUrl + '/contact'
 				},
 				{
 					subCategory: 'Support',
-					subCategoryLink: '/contact'
+					subCategoryLink: baseUrl + '/contact'
 				},
 				{
 					subCategory: 'Join us',
-					subCategoryLink: '/contact'
+					subCategoryLink: baseUrl + '/contact'
 				}
 			]
 		}
