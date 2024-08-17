@@ -42,7 +42,7 @@ export const footerNavigationData: FooterData = {
 		aboutText:
 			'سیستم یکپارچه مدیریت مدارس با رویکرد هوشمند سازی آموزش و افزایش بهره وری مدارس و یادگیری دانش آموزان',
 		logo: {
-			src: baseUrl + '/logo.svg',
+			src: baseUrl + '/vira-logo.png',
 			alt: 'پلتفرم مدیریت مدارس',
 			text: 'ویرا.'
 		}

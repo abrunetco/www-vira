@@ -36,7 +36,7 @@ export interface NavData {
 
 export const navigationBarData: NavData = {
 	logo: {
-		src: baseUrl + '/logo.svg',
+		src: baseUrl + '/vira-logo.png',
 		alt: 'سیستم مدیریت مدارس',
 		text: 'ویرا.'
 	},
