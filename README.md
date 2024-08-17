@@ -1,175 +1,100 @@
-# Foxi - Astro Theme
+# [Vira - School Managment System (SMS)](https://abrunetco.github.io/www-vira)
 
-Open-source Astro website template with fully responsive, customizable TailwindCSS components.
+## 1. Core Pages (Essential for Launch)
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/foxi.png)
+### 1.1. Home Page
 
-[![View live Demo](https://oxygenna-themes.b-cdn.net/foxi-astro/button-demo.svg)](https://foxi.netlify.app)
-[![Page Speed Insights (100%)](https://oxygenna-themes.b-cdn.net/foxi-astro/button-pagespeed.svg)](https://pagespeed.web.dev/analysis/https-foxi-netlify-app/c9ig3t85mu?form_factor=desktop)
+**Purpose:** This is the first impression of your platform, so it needs to be engaging, informative, and clear about what your startup offers.
+- [ ] **Hero Section:** A brief, compelling statement about your platform’s benefits (e.g., "Transforming Education through Automation and Innovation").
+- [ ] **Call-to-Action (CTA):** Buttons like "Request a Demo," "Get Started," or "Learn More."
+- [ ] **Key Features:** Short descriptions of your main features:** school administration, teaching assistance, parent communication, and student analysis.
+- [ ] **Testimonials:** Quotes or short reviews from early adopters or beta testers.
+- [ ] **Visuals:** High-quality images or a video demonstrating the platform's capabilities.
 
-## Introduction
+### 1.2. Features Page
 
-### About
+**Purpose:** Provide an in-depth look at what your platform offers and how it benefits schools.
+- [ ] **Feature Overviews:** Detailed descriptions of each core feature with screenshots or interactive demos.
+- [ ] **Benefits:** Explain how these features will save time, improve efficiency, and enhance the educational experience.
+- [ ] **User Roles:** Break down how different users (admins, teachers, parents, students) interact with the platform.
 
-Foxi is a free, highly customizable, and production-ready template for Astro, utilizing Tailwind CSS components. Designed with developers in mind, Foxi offers a solid foundation for building modern, high-performance websites quickly and efficiently.
+### 1.3. About Us Page
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/pagespeedscore.svg)
+**Purpose:** Establish credibility and share your startup's story.
+- [ ] **Mission Statement:** A clear statement of your goals and values.
+- [ ] **Founders’ Story:** Background on the founders and the inspiration behind the startup.
+- [ ] **Team Introduction:** Brief bios of key team members.
+- [ ] **Company Vision:** Where you see the future of education and how your platform will play a part.
 
-### Features
+### 1.4. Contact Us Page
 
-- **Built with Tailwind CSS:** Powered by Tailwind CSS for rapid UI development and responsive design.
-- **Perfect Scores in PageSpeed Insights:** Achieve perfect 100s for both desktop and mobile performance.
-- **Light & Dark Mode Support:** Seamlessly switch between light and dark themes to suit user preferences.
-- **Fully Responsive & Customizable:** Ensure your site looks great on any device, with easy customization to match your brand’s identity.
-- **SEO-friendly:** Optimized for search engines to improve visibility and organic traffic.
-- **Pre-designed Pages:** Includes a variety of pages such as Home, Pricing, Features, Contact, and more, to get you started quickly.
-- **Blog with MDX Support & Tags:** Create dynamic blog content with Markdown and JSX, complete with tagging for better organization.
-- **Easy Updates with JSON Files:** Simplify content management and updates using structured JSON files.
-- **Page Loading & Transition Animations:** Enhance user experience with smooth loading and transition effects.
-- **Clean Code & Folder Structure:** Maintain a well-organized codebase that’s easy to navigate and extend.
-- **Heroicons by Tailwind:** Access a wide range of high-quality icons to use across your site.
-- **Built-in Contact Form:** Ready-to-use contact form included.
-- **Utilizes WindUI Components:** Integrates optional WindUI TailwindCSS components.
-- **Modular Design:** The template is organized into reusable blocks enabling easy customization and expansion.
-- **Integrated Analytics:** Includes integrated Google Analytics and Google Tag Manager functionalities.
-- **Sitemap Included:** Includes a sitemap to enhance website navigation and search engine indexing.
+**Purpose:** Make it easy for potential customers to reach you.
+- [ ] **Contact Form:** For inquiries or demo requests.
+- [ ] **Email Address & Phone Number:** Direct contact options.
+- [ ] **Social Media Links:** Encourage visitors to follow your startup on social platforms.
+- [ ] **Location Information:** If relevant, provide a physical address.
 
-## Getting Started
+### 1.5. Pricing Page
 
-### Commands
+**Purpose:** Clearly communicate your pricing model.
+- [ ] **Pricing Tiers:** Break down different plans, highlighting what features are included at each level.
+- [ ] **Free Trials/Discounts:** Any introductory offers to entice sign-ups.
+- [ ] **Value Proposition:** Justify the cost with the benefits provided by each plan.
 
-After downloading the template, you'll need to install some dependencies. Once that's done, you can run it on your local server. Check out the package.json file to see what scripts are available.
+## 2. Supportive Pages (Enhancing Engagement)
 
-| Command           | Action                                                                                                   |
-| :---------------- | :------------------------------------------------------------------------------------------------------- |
-| `nvm use ...`     | [Install node js](https://nodejs.org/en/download/) You will need to use Node.js version 20.3.0 or later. |
-| `npm install`     | Installs dependencies                                                                                    |
-| `npm run dev`     | Starts local dev server at `localhost:4321`                                                              |
-| `npm run build`   | Build your production site to `./dist/`                                                                  |
-| `npm run preview` | Preview your build locally, before deploying                                                             |
+### 2.1. Blog
 
-### Folder structure
+**Purpose:** Share industry insights, educational trends, and updates on your platform to establish thought leadership.
+- [ ] **Articles:** Topics like “The Future of School Management,” “How Technology is Improving Education,” etc.
+- [ ] **Platform Updates:** Announce new features or improvements.
+- [ ] **Success Stories:** Case studies or success stories from schools using your platform.
 
-Inside Foxi Astro project, you'll see the following folders and files:
+### 2.2. FAQs Page
 
-```plaintext
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── blocks/
-│   │   │   └── ...
-│   │   └── ui/
-│   │       └── ...
-│   ├── config/
-│   │   └── ...
-│   ├── content/
-│   │   └── blog/
-│   │       └── ...
-│   ├── data/
-│   │   └── ...
-│   ├── icons/
-│   │   └── ...
-│   ├── layouts/
-│   │   └── ...
-│   ├── page-sections/
-│   │   └── home/
-│   │       └── ...
-│   └── pages/
-│       └── ...
-└── package.json
-```
+**Purpose:** Address common questions to reduce friction during the decision-making process.
+- [ ] **General Questions:** About the platform, setup process, support, etc.
+- [ ] **Feature-Specific Questions:** More detailed answers regarding functionality.
+- [ ] **Billing Questions:** Clarifications on pricing, trial periods, and payment methods.
 
-| Directory/File           | Description                                                                                                                        |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `public/`                | Contains static assets like images and the favicon. These files are served directly at the root URL.                               |
-| `src/assets/`            | Contains all images and assets used in the project.                                                                                |
-| `src/components/`        | Contains reusable components for your site. This directory is divided into `ui` for UI components and `blocks` for section blocks. |
-| `src/components/blocks/` | Contains Section blocks used throughout the site.                                                                                  |
-| `src/components/ui/`     | Contains individual UI components.                                                                                                 |
-| `src/config/`            | Contains configuration files for the project in typescript format.                                                                 |
-| `src/content/`           | Holds collection data, such as blog posts.                                                                                         |
-| `src/content/blog/`      | Contains individual blog posts in markdown.                                                                                        |
-| `src/data/`              | Contains JSON and md files with content data (like features, testimonials etc).                                                    |
-| `src/icons/`             | Contains all icons used in the project, sourced from [Heroicons](https://heroicons.com/).                                          |
-| `src/layouts/`           | Contains layout components that define the overall structure of your pages.                                                        |
-| `src/pages/`             | Contains `.astro` files for each page. Each file here is exposed as a route based on its file name.                                |
-| `package.json`           | Lists dependencies and scripts for your project, including metadata and various package requirements.                              |
+### 2.3. Case Studies/Testimonials Page
 
-## Theme Configuration
+**Purpose:** Showcase how your platform is making a difference.
+- [ ] **Case Studies:** Detailed examples of how specific schools have benefited from your platform.
+- [ ] **Testimonials:** Video or written testimonials from school administrators, teachers, or parents.
+- [ ] **Before & After Scenarios:** Highlight tangible improvements made by your platform.
 
-You can find the configuration files in the `src/config` directory. The configuration files are written in TypeScript and contain various settings for the theme, such as basic information, navigation bar, footer navigation, analytics, and social links. You can customize these settings to fit your specific needs.
+### 2.4. Demo/Request a Demo Page
 
-| Configuration File               | Description                                                                                     |
-| -------------------------------- | ----------------------------------------------------------------------------------------------- |
-| `src/config/config.ts`           | Includes the basic configuration settings including SEO, mode, and scroll animations.           |
-| `src/config/navigationBar.ts`    | Includes menu options for the navigation bar.                                                   |
-| `src/config/footerNavigation.ts` | Includes menu options for the footer navigation.                                                |
-| `src/config/analytics.ts`        | Includes the required codes for Google Analytics, Google Tag Manager and Google Search Console. |
-| `src/config/socialLinks.ts`      | Contains the social link data for the website.                                                  |
+**Purpose:** Offer potential customers a way to experience the platform firsthand.
+- [ ] **Demo Request Form:** Allow visitors to schedule a live demo.
+- [ ] **Pre-Recorded Demo:** A video walkthrough for immediate viewing.
+- [ ] **Benefits of a Demo:** Explain what they’ll gain from participating in a demo session.
 
-### Basic configuration settings
+## 3. Advanced Pages (To Build Trust and Community)
 
-In the `src/config/config.ts` file, you can find the basic configuration settings.
-These includes the default SEO settings:
+### 3.1. Community/Forum Page
 
-- `siteTitle`: The default title of your website.
-- `siteDescription`: The default description of your website.
-- `ogImage`: The open graph image for your website.
-- `logo`: The logo for your website.
-- `canonical`: Whether to use canonical links for your website.
-- `noindex`: Prevents search engines from indexing your website if set to true.
+**Purpose:** Build a community around your platform where users can share experiences and tips.
+- [ ] **Discussion Boards:** For different user types (admins, teachers, parents).
+- [ ] **Feature Requests:** Allow users to suggest and vote on new features.
+- [ ] **User Tips:** Share best practices and how-tos from the community.
 
-as well as the default site settings:
+### 3.2. Resources Page
 
-- `mode`: The default mode for your website. Can be set to 'auto', 'light', or 'dark'. Auto mode will automatically switch between light and dark modes based on the user's system settings, while 'light' and 'dark' will force the site to use the corresponding mode.
-- `scrollAnimations`: Whether to enable smooth scrolling animations for your website.
+**Purpose:** Provide valuable content that educates and informs your audience.
+- [ ] **E-books & Whitepapers:** On topics like “Optimizing School Management” or “Leveraging Technology in Education.”
+- [ ] **Webinars:** Announcements and sign-up links for upcoming webinars.
+- [ ] **Downloadable Guides:** Practical guides for using your platform effectively.
 
-## Theme Customization
+### 3.3. Partner/Integration Page
 
-### Customize the Colors
+**Purpose:** Highlight collaborations and integrations with other tools or services.
+- [ ] **Integration Details:** How your platform works with existing tools like learning management systems (LMS), payment gateways, etc.
+- [ ] **Partner Logos:** Show logos of your technology or service partners.
+- [ ] **Joint Case Studies:** Demonstrate the enhanced value through partnerships.
 
-The theme uses two main colors: primary and neutral. These colors are defined in the Tailwind CSS configuration file. To personalize the color scheme of your project, you can easily modify these color values.
-
-To customize the colors, follow these steps:
-
-1. Open the `tailwind.config.js` file.
-2. Find the `theme` section within the file.
-3. Under `theme`, locate the `extend` property and then the `colors` object.
-4. Modify the color values for `primary` and `neutral` to suit your preferred color palette.
-
-You can use the [tailwind CSS colors](https://nodejs.org/en/download/) or create your [own palette](https://uicolors.app/create) .
-
-### Customize the Fonts
-
-To customize the fonts used in your project, follow these steps:
-
-1. **Update the Tailwind CSS Configuration**
-
-   Open the `tailwind.config.js` file. In the `theme` section, find the `extend` property and update the `fontFamily` object.
-
-2. **Ensure Font Packages are Installed**
-
-   Verify that the necessary font packages are included in your `package.json` file and also imported in the `src/layouts/Layout.astro` file.
-
-You can add your own fonts by following [this guide](https://docs.astro.build/en/guides/fonts/#using-fontsource)
-
-### Dark/Light Mode
-
-By default, the site uses an automatic mode switcher, allowing it users to switch between light and dark modes based on the user's system settings or by using the mode switcher in the navigation bar. This is achioeved by setting the `mode-auto` class in the `Layout.astro` file.
-
-If you need to enforce a specific theme, you can set the class above as **`mode-light`** or **`mode-dark`**. When **`mode-light`** is applied, the site will consistently display in light mode, and the switcher will not be functional. Similarly, **`mode-dark`** will force the site to dark mode, with the switcher rendered non-functional. These settings allow you to maintain a fixed appearance across the site regardless of user preferences or system settings.
-
-## License
-
-Copyright © 2024 - Designed & Developed by [Oxygenna](http://www.oxygenna.com/)
-
-Released under the MIT license.
-
-## Join the Community
-
-You can join our community on [Discord](https://discord.gg/YC5Eup8ZEx)!
-
-[![Hire Us](https://oxygenna-themes.b-cdn.net/foxi-astro/hireus.png)](mailto:info@oxygenna.com,christos@oxygenna.com)
+### 3.4. Additional Considerations
+- [ ] **SEO Optimization:** Ensure all pages are optimized for search engines to increase visibility.
+- [ ] **Mobile Responsiveness:** Design the site to be fully functional and visually appealing on mobile devices.
+- [ ] **Security & Privacy Info:** Highlight how user data is protected, which is especially important in the education sector.
