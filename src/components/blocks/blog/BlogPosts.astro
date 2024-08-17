@@ -13,6 +13,7 @@ import Col from '../../../components/ui/Col.astro'
 // - UI
 import Post from '../../../components/ui/cards/BlogCard.astro'
 import TagNavigation from '../../../components/ui/blog/TagNavigation.astro'
+import { baseUrl } from '../../../config/config'
 
 // Props
 type Props = {
@@ -35,7 +36,7 @@ const sortedPosts = allPosts.sort((a: any, b: any) => {
 			sortedPosts.map((post: any) => (
 				<Col span="4">
 					<Post
-						link={`/blog/${post.slug}`}
+						link={baseUrl + `/blog/${post.slug}`}
 						title={post.data.title}
 						subtitle={`By ${post.data.author} on ${new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`}
 						image={post.data.image}

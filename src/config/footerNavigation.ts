@@ -38,67 +38,67 @@ export interface FooterData {
 
 export const footerNavigationData: FooterData = {
 	footerAbout: {
-		title: 'Foxi.',
+		title: 'ویرا.',
 		aboutText:
-			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
+			'سیستم یکپارچه مدیریت مدارس با رویکرد هوشمند سازی آموزش و افزایش بهره وری مدارس و یادگیری دانش آموزان',
 		logo: {
 			src: baseUrl + '/logo.svg',
-			alt: 'The tailwind astro theme',
-			text: 'Foxi.'
+			alt: 'پلتفرم مدیریت مدارس',
+			text: 'ویرا.'
 		}
 	},
 	footerColumns: [
 		{
-			category: 'Product',
+			category: 'خدمات',
 			subCategories: [
 				{
-					subCategory: 'Features',
+					subCategory: 'امکانات',
 					subCategoryLink: baseUrl + '/features'
 				},
 				{
-					subCategory: 'FAQ',
+					subCategory: 'سوالات شما',
 					subCategoryLink: baseUrl + '/faq'
 				},
 				{
-					subCategory: 'Pricing',
+					subCategory: 'قیمت',
 					subCategoryLink: baseUrl + '/pricing'
 				},
 				{
-					subCategory: 'Changelog',
+					subCategory: 'نقشه راه',
 					subCategoryLink: baseUrl + '/changelog'
 				},
 				{
-					subCategory: 'Terms',
+					subCategory: 'مقررات',
 					subCategoryLink: baseUrl + '/terms'
 				}
 			]
 		},
 		{
-			category: 'About us',
+			category: 'شرکت ویرا',
 			subCategories: [
 				{
-					subCategory: 'About us',
+					subCategory: 'درباه ما',
 					subCategoryLink: baseUrl + '/'
 				},
 				{
-					subCategory: 'News',
+					subCategory: 'تازه ها',
 					subCategoryLink: baseUrl + '/blog'
 				},
 				{
-					subCategory: 'Careers',
+					subCategory: 'تیم فنی',
 					subCategoryLink: baseUrl + '/blog'
 				}
 			]
 		},
 		{
-			category: 'Get in touch',
+			category: 'ارتباط',
 			subCategories: [
 				{
-					subCategory: 'Contact',
+					subCategory: 'تماس با ما',
 					subCategoryLink: baseUrl + '/contact'
 				},
 				{
-					subCategory: 'Support',
+					subCategory: 'پشتیبانی',
 					subCategoryLink: baseUrl + '/contact'
 				},
 				{
@@ -109,6 +109,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: '© Foxi 2024.'
+		copywriteText: '© ویرا ۱۳۰۴.'
 	}
 }

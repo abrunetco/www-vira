@@ -1,24 +1,24 @@
 [
 	{
-		"title": "Real-Time Analytics",
+		"title": "گزارش های آماری",
 		"icon": "chart-pie",
 		"description": "Gain valuable insights instantly with Foxi's real-time analytics. Track performance metrics, user behavior, and campaign effectiveness effortlessly.",
 		"category": "Analytics"
 	},
 	{
-		"title": "Customizable Dashboards",
+		"title": "داشبور سفارشی",
 		"icon": "squares-plus",
 		"description": "Tailor your workspace with personalized dashboards that suit your workflow. Stay organized and focused on what matters most to your business.",
 		"category": "Analytics"
 	},
 	{
-		"title": "Task Management",
+		"title": "مدیریت کار ها",
 		"icon": "cliboard-document-check",
 		"description": "Efficiently manage tasks and projects with Foxi's intuitive task management tools. Assign, track progress, and collaborate seamlessly.",
 		"category": "Productivity"
 	},
 	{
-		"title": "Third-Party Apps",
+		"title": "ارتباط با والدین",
 		"icon": "rocket",
 		"description": "Connect Foxi with your favorite tools and apps effortlessly. Streamline workflows and enhance productivity with seamless integrations.",
 		"category": "Productivity"
