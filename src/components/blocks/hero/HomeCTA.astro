@@ -6,6 +6,7 @@
 // Components
 // - Layout
 import Section from '../../ui/Section.astro'
+import Slider from '../../ui/carousel/Slider.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 // - UI
@@ -21,6 +22,7 @@ import heroImage from '../../../assets/hero-01.png'
 import user1 from '../../../assets/avatars/avatar-01.webp'
 import user2 from '../../../assets/avatars/avatar-02.webp'
 import user3 from '../../../assets/avatars/avatar-03.webp'
+import { baseUrl } from '../../../config/config'
 const avatars = [
 	{ image: { src: user1.src, alt: 'user name' }, link: '/' },
 	{ image: { src: user2.src, alt: 'user name' }, link: '/' },
@@ -30,21 +32,20 @@ const avatars = [
 
 <Section id="intro" padding="top" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
-		<Col span="2" />
-		<Col span="8" align="center">
+		<Col span="12" align="center">
 			<!-- <ChipNotification radius="rounded-full" classes="mb-6">
 				<strong>30K+</strong> satisfied customers
 				<AvatarGroup avatars={avatars} radius="rounded-full" slot="button" />
 			</ChipNotification> -->
 
-			<p class="pb-0 text-lg">در وقت و هزینه خود صرفه جویی کنید</p>
+			<p class="pb-0 text-lg">خود صرفه جویی کنید</p>
 
 			<h1>با پلتفرم <strong>ویرا</strong> سبک جدید مدیریت <strong>مدارس</strong> را تجربه کنید</h1>
 
 			<p class="pb-0 text-lg">زیر چتر ویرا برای همه جا هست!</p>
-			<Button size="lg" link="/">شروع کنید</Button>
+			<Button size="lg" link={baseUrl}>شروع کنید</Button>
+			<!-- <Slider /> -->
 		</Col>
-		<Col span="2" />
 		<Col span="2" />
 		<Col span="8">
 			<Image

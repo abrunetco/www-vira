@@ -1,0 +1,32 @@
+---
+// Slider
+// ------------
+// Description: a wrapper component for carosel slides
+// Properties:
+// - Title: the title of the CTA
+
+import Slide from './Slide.astro'
+
+// Props
+type Props = {
+	classes?: string
+}
+const { classes } = Astro.props
+---
+
+<div class="sliderAx h-auto">
+	<Slide />
+	<Slide />
+</div>
+<div class="mx-auto flex w-12 justify-between pb-2">
+	<button id="sButton1" onclick="sliderButton1()" class="w-4 rounded-full bg-purple-400 pb-2"
+	></button>
+	<button id="sButton2" onclick="sliderButton2() " class="w-4 rounded-full bg-purple-400 p-2"
+	></button>
+</div>
+
+<style>
+	/* .slider {
+		@apply
+	} */
+</style>

@@ -9,7 +9,7 @@
 			"priceMontly": "25",
 			"priceLabelMontly": "ماه",
 			"buttonName": "درخواست دمو",
-			"buttonLink": "/"
+			"buttonLink": "/www-vira"
 		},
 		"body": {
 			"listItems": [
@@ -26,7 +26,7 @@
 		},
 		"footer": {
 			"buttonName": "مشاهده جزئیات",
-			"buttonLink": "/"
+			"buttonLink": "/www-vira"
 		},
 		"type": "basic"
 	},
@@ -40,7 +40,7 @@
 			"priceMontly": "35",
 			"priceLabelMontly": "month",
 			"buttonName": "درخواست دمو",
-			"buttonLink": "/"
+			"buttonLink": "/www-vira"
 		},
 		"body": {
 			"listItems": [
@@ -60,7 +60,7 @@
 		},
 		"footer": {
 			"buttonName": "مشاهده جزئیات",
-			"buttonLink": "/"
+			"buttonLink": "/www-vira"
 		},
 		"type": "featured"
 	},
@@ -74,7 +74,7 @@
 			"priceMontly": "65",
 			"priceLabelMontly": "month",
 			"buttonName": "درخواست دمو",
-			"buttonLink": "/"
+			"buttonLink": "/www-vira"
 		},
 		"body": {
 			"listItems": [
@@ -91,7 +91,7 @@
 		},
 		"footer": {
 			"buttonName": "مشاهده جزئیات",
-			"buttonLink": "/"
+			"buttonLink": "/www-vira"
 		},
 		"type": "basic"
 	}

@@ -1,12 +1,12 @@
 [
 	{
-		"title": "v1.0.6: Enhanced Security Features",
-		"date": "2024-07-01",
+		"title": "v0.0.1: وبسایت و کانال ارتباطی",
+		"date": "1304 Q2",
 		"text": "<p>We've implemented new security protocols to safeguard your data. Enjoy peace of mind with improved encryption and multi-factor authentication.</p> <ul><li>2FA enabled by default</li><li>HubSpot integration</li><li>Zoho CRM integration</li></ul>",
 		"image": "/feeds/feed-01.png"
 	},
 	{
-		"title": "v1.0.5: User Interface Improvements",
+		"title": "v0.0.1: User Interface Improvements",
 		"date": "2024-06-15",
 		"text": "<p>Our latest update brings a revamped user interface for a more intuitive and visually appealing experience. Navigation and usability have been greatly enhanced.</p><ul><li>Updated dashboard layout</li><li>Improved accessibility features</li><li>Streamlined navigation menus</li></ul>",
 		"image": "/feeds/feed-02.png"

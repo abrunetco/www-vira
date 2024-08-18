@@ -18,12 +18,15 @@ import feature02 from '../../../assets/cards/feature-02.svg'
 import feature03 from '../../../assets/cards/feature-03.svg'
 import feature04 from '../../../assets/cards/feature-04.svg'
 import feature05 from '../../../assets/cards/feature-05.svg'
+import { baseUrl } from '../../../config/config'
 ---
 
 <Section id="features">
 	<Row>
 		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
-			<h2 class="text-pretty">Innovative tools to <strong>transform</strong> your workflow</h2>
+			<h2 class="text-pretty">
+				با مدیریت سیستمی، <strong>کارایی</strong> مدرسه خود را متحول کنید.
+			</h2>
 			<p class="pb-0 text-lg">
 				Explore the suite of tools designed to streamline your workflow, enhance productivity, and
 				drive growth. Each product is crafted with precision to meet your needs and exceed your
@@ -34,35 +37,35 @@ import feature05 from '../../../assets/cards/feature-05.svg'
 	<Row>
 		<Col span="4">
 			<Card
-				title="All your data in one place"
+				title="مدیریت تمامی کارهای مدرسه در یک نرم‌افزار"
 				subtitle="Stay on top of your tasks and deadlines with our intuitive project management tool. Visualize progress, assign tasks, and collaborate seamlessly."
 				image={feature01}
-				link="/features"
+				link={baseUrl + '/features'}
 			/>
 		</Col>
 		<Col span="4" classes="flex flex-col gap-6">
 			<Card
-				title="Organize & manage your projects "
+				title="مدیریت برنامه های کلاسی"
 				subtitle="Stay on top of your tasks and deadlines with our intuitive project management tool. "
 				image={feature02}
-				link="/features"
+				link={baseUrl + '/features'}
 			/>
 			<Card
-				title="Keep your team connected"
+				title="ارتباط با والدین"
 				subtitle="With our integrated chat platform share updates, files, and messages in a secure and user-friendly environment."
 				image={feature03}
-				link="/features"
+				link={baseUrl + '/features'}
 			/>
 		</Col>
 		<Col span="4" classes="flex flex-col gap-6">
 			<Card
-				title="Manage your customers"
+				title="مدیریت درخواست ها"
 				subtitle="Build and nurture customer relationships with our powerful CRM system. "
 				image={feature04}
-				link="/features"
+				link={baseUrl + '/features'}
 			/>
 			<Card
-				title="Simplify your financial operations"
+				title="مدیریت ثبت نام ها و شهریه"
 				subtitle="Streamline your billing process with our easy-to-use invoicing tool. Create, send, and track invoices effortlessly."
 				image={feature05}
 				link="/features"
